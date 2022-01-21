@@ -30,7 +30,7 @@ No requirements.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 3.72.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 3.73.0 |
 | <a name="provider_random"></a> [random](#provider\_random) | 3.1.0 |
 
 ## Modules
@@ -72,6 +72,6 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_rds_address"></a> [rds\_address](#output\_rds\_address) | RDS Address. |
-| <a name="output_rds_endpoint"></a> [rds\_endpoint](#output\_rds\_endpoint) | RDS Endpoint. |
+| <a name="output_address"></a> [address](#output\_address) | RDS Address. |
+| <a name="output_endpoint"></a> [endpoint](#output\_endpoint) | RDS Endpoint. |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->

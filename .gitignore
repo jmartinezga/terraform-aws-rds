@@ -4,8 +4,6 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
-
-# .terraform.lock.hcl files
 **/.terraform.lock.hcl
 
 # Infracost breakdown

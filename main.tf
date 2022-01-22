@@ -21,7 +21,7 @@ resource "random_password" "this" {
 
 #https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ssm_parameter
 resource "aws_ssm_parameter" "secret" {
-  name        = "/${var.environment}/${var.rds_identifier}/${var.rds_user}/password/"
+  name        = "/${var.environment}/${var.rds_identifier}/${var.rds_user}/password"
   description = "Password for the master DB user"
   type        = "SecureString"
   value       = random_password.this.result

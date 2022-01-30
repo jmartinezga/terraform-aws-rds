@@ -15,8 +15,12 @@ locals {
 
 #https://registry.terraform.io/providers/hashicorp/random/latest/docs/resources/password
 resource "random_password" "this" {
-  length  = 16
-  special = true
+  length           = 16
+  min_upper        = 1
+  min_numeric      = 1
+  min_special      = 1
+  special          = true
+  override_special = "%@!."
 }
 
 #https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ssm_parameter

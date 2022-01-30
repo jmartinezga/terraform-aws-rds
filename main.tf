@@ -20,7 +20,7 @@ resource "random_password" "this" {
   min_numeric      = 1
   min_special      = 1
   special          = true
-  override_special = "%@!."
+  override_special = "%-$&?¿*!."
 }
 
 #https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ssm_parameter
